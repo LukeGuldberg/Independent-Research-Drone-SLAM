@@ -2,7 +2,7 @@
 
 The goal of this project is to implement a Simultaneous Localization and Mapping (SLAM) algorithm that maps points of interest in a camera's field of view. This requires calculating the camera's essential matrix, rotation matrix, and translation vector. This code accomplishes this by building on the previous frame's rotation and translation vectors to maintain accuracy.
 
-![Screenshot](OpenCVGit.png)
+![ScreenShot](OpenCVGit.png)
 
 ## Building
 
