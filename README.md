@@ -63,4 +63,3 @@ if (cv::waitKey(10) == 27) {break;}
 
 The `CMakeLists.txt` file includes two executables: `webcam` for running the program described above and calibrate for finding the essential matrix needed to `calibrate` a camera.<br>
 _For documentation on camera calibration see_ `camera_calibration.cpp`
-#
