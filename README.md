@@ -4,7 +4,7 @@ The goal of this project is to implement a Simultaneous Localization and Mapping
 
 ## Program Overview
 
-The 'VideoCapture" class is used to access the camera, specifically the webcam of the machine runing the code.
+The 'VideoCapture" class is used to access the camera, specifically the webcam of the machine running the code.
 
 ```C++
 cv::VideoCapture capture; // private data type
@@ -18,7 +18,7 @@ Features previous = find_good_features(video_capture.get_next_frame());
 Features current {video_capture.get_next_frame()};
 ```
 
-The `filter_points` function uses OpenCV's built-in library to calculate the optical flow of the two frames, updates the vector of points in both `previous` and `current`. This ensures that the points on the screen move smoothly and accurately in relation to the camera's movement.
+The `filter_points` function uses OpenCV's built-in library to calculate the optical flow of the two frames, and updates the vector of points in both `previous` and `current`. This ensures that the points on the screen move smoothly and accurately in relation to the camera's movement.
 
 The next step is to calculate the essential matrix, rotation matrix, and translation vector using the following OpenCV functions:
 
