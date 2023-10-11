@@ -2,9 +2,45 @@
 
 The goal of this project is to implement a Simultaneous Localization and Mapping (SLAM) algorithm that maps points of interest in a camera's field of view. This requires calculating the camera's essential matrix, rotation matrix, and translation vector. This code accomplishes this by building on the previous frame's rotation and translation vectors to maintain accuracy.
 
+![Screenshot](OpenCVGit.png)
+
+## Building
+
+The project is written in C++ and uses features from the C++17
+standard. [CMake](https://cmake.org/) is used to build all components.
+and works well with the
+[CMakeTools](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cmake-tools)
+extension in VSCode.
+
+To configure it manually, type
+
+```
+cd build
+cmake ..
+```
+
+then build it using
+
+```
+cmake --build .
+```
+
+Either method will generate an executable in the build directory.
+
+## Running
+
+Running this game requires the OpenCV library to be installed. This
+is done very easily on MacOS and Windows through [MSYS2](https://www.msys2.org/#installation). <br>
+
+In the MSYS2 terminal, the following command can be run to install the library and
+configure all pathing for dll files.<br>
+`pacman -S mingw-w64-x86_64-opencv`
+
+Once the OpenCV library is installed and the program has been built using CMake, `.\build\____` (name of executable within build folder) can be run.
+
 ## Program Overview
 
-The 'VideoCapture" class is used to access the camera, specifically the webcam of the machine running the code.
+The 'VideoCapture" class is used to access the camera, specifically the webcam of the machine runing the code.
 
 ```C++
 cv::VideoCapture capture; // private data type
@@ -18,7 +54,7 @@ Features previous = find_good_features(video_capture.get_next_frame());
 Features current {video_capture.get_next_frame()};
 ```
 
-The `filter_points` function uses OpenCV's built-in library to calculate the optical flow of the two frames, and updates the vector of points in both `previous` and `current`. This ensures that the points on the screen move smoothly and accurately in relation to the camera's movement.
+The `filter_points` function uses OpenCV's built-in library to calculate the optical flow of the two frames, updates the vector of points in both `previous` and `current`. This ensures that the points on the screen move smoothly and accurately in relation to the camera's movement.
 
 The next step is to calculate the essential matrix, rotation matrix, and translation vector using the following OpenCV functions:
 
