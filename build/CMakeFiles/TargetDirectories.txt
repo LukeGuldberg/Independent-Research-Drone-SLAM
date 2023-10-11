@@ -1,0 +1,4 @@
+C:/Users/lukeg/code/opencvjoined/drone-slam/build/CMakeFiles/webcam.dir
+C:/Users/lukeg/code/opencvjoined/drone-slam/build/CMakeFiles/calibrate.dir
+C:/Users/lukeg/code/opencvjoined/drone-slam/build/CMakeFiles/edit_cache.dir
+C:/Users/lukeg/code/opencvjoined/drone-slam/build/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,27 @@
+[
+{
+  "directory": "C:/Users/lukeg/code/opencvjoined/drone-slam/build",
+  "command": "C:\\msys64\\mingw64\\bin\\x86_64-w64-mingw32-g++.exe  @CMakeFiles/webcam.dir/includes_CXX.rsp -g -std=c++17 -ggdb -Wall -Wextra -pedantic -o CMakeFiles\\webcam.dir\\main.cpp.obj -c C:\\Users\\lukeg\\code\\opencvjoined\\drone-slam\\main.cpp",
+  "file": "C:/Users/lukeg/code/opencvjoined/drone-slam/main.cpp"
+},
+{
+  "directory": "C:/Users/lukeg/code/opencvjoined/drone-slam/build",
+  "command": "C:\\msys64\\mingw64\\bin\\x86_64-w64-mingw32-g++.exe  @CMakeFiles/webcam.dir/includes_CXX.rsp -g -std=c++17 -ggdb -Wall -Wextra -pedantic -o CMakeFiles\\webcam.dir\\features.cpp.obj -c C:\\Users\\lukeg\\code\\opencvjoined\\drone-slam\\features.cpp",
+  "file": "C:/Users/lukeg/code/opencvjoined/drone-slam/features.cpp"
+},
+{
+  "directory": "C:/Users/lukeg/code/opencvjoined/drone-slam/build",
+  "command": "C:\\msys64\\mingw64\\bin\\x86_64-w64-mingw32-g++.exe  @CMakeFiles/webcam.dir/includes_CXX.rsp -g -std=c++17 -ggdb -Wall -Wextra -pedantic -o CMakeFiles\\webcam.dir\\opticalflow.cpp.obj -c C:\\Users\\lukeg\\code\\opencvjoined\\drone-slam\\opticalflow.cpp",
+  "file": "C:/Users/lukeg/code/opencvjoined/drone-slam/opticalflow.cpp"
+},
+{
+  "directory": "C:/Users/lukeg/code/opencvjoined/drone-slam/build",
+  "command": "C:\\msys64\\mingw64\\bin\\x86_64-w64-mingw32-g++.exe  @CMakeFiles/webcam.dir/includes_CXX.rsp -g -std=c++17 -ggdb -Wall -Wextra -pedantic -o CMakeFiles\\webcam.dir\\videocapture.cpp.obj -c C:\\Users\\lukeg\\code\\opencvjoined\\drone-slam\\videocapture.cpp",
+  "file": "C:/Users/lukeg/code/opencvjoined/drone-slam/videocapture.cpp"
+},
+{
+  "directory": "C:/Users/lukeg/code/opencvjoined/drone-slam/build",
+  "command": "C:\\msys64\\mingw64\\bin\\x86_64-w64-mingw32-g++.exe  @CMakeFiles/calibrate.dir/includes_CXX.rsp -g -std=c++17 -ggdb -Wall -Wextra -pedantic -o CMakeFiles\\calibrate.dir\\camera_calibration.cpp.obj -c C:\\Users\\lukeg\\code\\opencvjoined\\drone-slam\\camera_calibration.cpp",
+  "file": "C:/Users/lukeg/code/opencvjoined/drone-slam/camera_calibration.cpp"
+}
+]

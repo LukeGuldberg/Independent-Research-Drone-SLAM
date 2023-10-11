@@ -1,0 +1,3 @@
+C:\msys64\mingw64\bin\cmake.exe -E rm -f CMakeFiles\calibrate.dir/objects.a
+C:\msys64\mingw64\bin\ar.exe qc CMakeFiles\calibrate.dir/objects.a @CMakeFiles\calibrate.dir\objects1
+C:\msys64\mingw64\bin\x86_64-w64-mingw32-g++.exe -g -Wl,--whole-archive CMakeFiles\calibrate.dir/objects.a -Wl,--no-whole-archive -o calibrate.exe -Wl,--out-implib,libcalibrate.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\calibrate.dir\linkLibs.rsp
